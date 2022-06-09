@@ -7,10 +7,16 @@ font-family: 'Nuosu SIL',
   text-align: center;
   margin-bottom: 20px;
   font-size: 75px;
+  position: relative;
+  
+  top: 5%;
 }
 
 form{
   text-align: center;
+  position: relative;
+  margin-top: 7%;
+  
 }
 
 .search-bar, .search-button{
@@ -19,9 +25,9 @@ form{
 }
 
 .search-bar{
-  width: 25%;
+  width: 70%;
   margin-right: 25px;
-  height: 29px;
+  height: 40px;
 }
 
 .search-button{
@@ -31,8 +37,10 @@ form{
 
 .initial-page{
   background-color: black;
-  padding: 15%;
-  margin-top: 50px;
   color:white;
-  border-radius: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  top:0px;
+  left:0px;
+  width:100%;
 }

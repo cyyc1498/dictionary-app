@@ -6,11 +6,12 @@ import Dictionary from './dictionary';
 function App() {
   return (
     <div className="App">
+      <div className="initial-page row">
+          <span className='col'><h1 className='title'>Dictionary</h1></span>
+          <span className='col'><Dictionary/></span>
+        </div>
       <div className="container">
-        <div className="initial-page">
-        <h1 className='title'>Dictionary</h1>
-        <Dictionary/>
-       </div>
+        
       </div>
       
       
