@@ -1,38 +1,38 @@
-.App {
+.App{
+font-family: 'Nuosu SIL',
+  serif;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 75px;
+}
+
+form{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search-bar, .search-button{
+  border-radius:  20px;
+  border: solid thin;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-bar{
+  width: 25%;
+  margin-right: 25px;
+  height: 29px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.search-button{
+  padding: 4px 12px;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.initial-page{
+  background-color: black;
+  padding: 15%;
+  margin-top: 50px;
+  color:white;
+  border-radius: 20px;
 }
