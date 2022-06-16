@@ -5,9 +5,15 @@ export default function Meaning(props){
     return(
     <div>
         <h5 className="cap part-of-speech">{props.meaning.partOfSpeech}</h5>
-        <p>Definition: {props.meaning.definitions[0].definition}</p>
-        <p></p>
-        
-        
+        {props.meaning.definitions.map(function(def,index){
+            return(
+                <div>
+                <ul>
+                    <li><p>{def.definition}</p></li>
+                    <em>{def.example}</em>
+                </ul>
+                </div>
+            )
+        })}
     </div>)
 }

@@ -10,7 +10,7 @@ export default function Results(props){
         <h2 className="cap">{props.data.word} - {props.data.phonetic}</h2>
         <div>{props.data.meanings.map(function(meaning,index){
             return(
-                <div>
+                <div key={index}>
                     <Meaning meaning={meaning}/>
                 </div>
             )
