@@ -7,8 +7,7 @@ export default function Results(props){
     if(props.data){
     return(
         <div>
-        <h2>{props.data.word}</h2>
-        <h3>Definition</h3>
+        <h2 className="cap">{props.data.word} - {props.data.phonetic}</h2>
         <div>{props.data.meanings.map(function(meaning,index){
             return(
                 <div>
@@ -24,4 +23,3 @@ export default function Results(props){
 }
 }
 
-//<div>{props.data.meanings[0].definitions[0].definition}</div>

@@ -28,10 +28,11 @@ form{
   width: 70%;
   margin-right: 25px;
   height: 40px;
+  text-align: center;
 }
 
 .search-button{
-  padding: 4px 12px;
+  padding: 6px 12px;
   
 }
 
@@ -43,4 +44,12 @@ form{
   top:0px;
   left:0px;
   width:100%;
+}
+
+.cap{
+  text-transform: capitalize;
+}
+
+.part-of-speech{
+  text-decoration: underline;
 }
