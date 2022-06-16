@@ -4,11 +4,10 @@ font-family: 'Nuosu SIL',
 }
 
 .title{
-  text-align: center;
+  margin-left: 5%;
   margin-bottom: 20px;
   font-size: 75px;
   position: relative;
-  
   top: 5%;
 }
 
@@ -51,5 +50,23 @@ form{
 }
 
 .part-of-speech{
-  text-decoration: underline;
+  border: black solid 2px;
+  border-radius: 25px;
+  width: fit-content;
+  padding: 7px 20px; 
+  margin-bottom: 30px;
+  color:white;
+  background-color: black;
+  
+}
+
+.searched-word{
+  margin-bottom:2%;
+  margin-top: 2%;
+  font-size: 40px;
+}
+
+.results{
+  margin-top: 10%;
+  margin-left: 5%;
 }

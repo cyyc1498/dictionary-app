@@ -34,15 +34,16 @@ return (
     <div>
           <div className="row">
           <span className='col'><h1 className='title'>Dictionary</h1></span>
-          <span className='col'>
-        
-    <form onSubmit={handleSubmit}>
-        <input type="text" className="search-bar" onChange={getWord}></input>
-        <input type="submit" value="Search" className="search-button" ></input>
-    </form>
-    </span>
-    <Results data={results}/>
-    </div>
+            <span className='col'>
+                <form onSubmit={handleSubmit}>
+                    <input type="text" className="search-bar" onChange={getWord}></input>
+                    <input type="submit" value="Search" className="search-button" ></input>
+                </form>
+            </span>
+            <div className="row">
+            <Results data={results}/>
+            </div>
+        </div>
     </div>
 )
 }

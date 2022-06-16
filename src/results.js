@@ -6,12 +6,14 @@ export default function Results(props){
     console.log(props.data)
     if(props.data){
     return(
-        <div>
-        <h2 className="cap">{props.data.word} - {props.data.phonetic}</h2>
+        <div className="results">
+        <h2 className="cap searched-word"><strong>{props.data.word}</strong> - {props.data.phonetic}</h2>
         <div>{props.data.meanings.map(function(meaning,index){
             return(
                 <div key={index}>
+                    <ol>
                     <Meaning meaning={meaning}/>
+                    </ol>
                 </div>
             )
             }

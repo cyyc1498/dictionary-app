@@ -8,10 +8,9 @@ export default function Meaning(props){
         {props.meaning.definitions.map(function(def,index){
             return(
                 <div>
-                <ul>
-                    <li><p>{def.definition}</p></li>
+                    <li><strong>{def.definition}</strong></li>
                     <em>{def.example}</em>
-                </ul>
+                    <br></br><br></br>
                 </div>
             )
         })}
