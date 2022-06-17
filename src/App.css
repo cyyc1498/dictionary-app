@@ -78,3 +78,20 @@ form{
 .definition-list{
   margin-right:100px;
 }
+
+.github{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.github:hover{
+  color:dimgray;
+  transition: 200ms ease-in-out;
+}
+
+
+.footer{
+  margin: 10px auto;
+  float: right;
+}
