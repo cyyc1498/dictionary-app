@@ -36,7 +36,7 @@ return (
           <span className='col-sm-6'><h1 className='title'>Dictionary</h1></span>
             <span className='col-sm-6'>
                 <form onSubmit={handleSubmit}>
-                    <input type="text" className="search-bar" onChange={getWord}></input>
+                    <input type="text" className="search-bar" onChange={getWord} placeholder="Find a definition"></input>
                     <input type="submit" value="Search" className="search-button" ></input>
                 </form>
             </span>
