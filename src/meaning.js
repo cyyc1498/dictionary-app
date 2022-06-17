@@ -7,7 +7,7 @@ export default function Meaning(props){
         <h5 className="cap part-of-speech">{props.meaning.partOfSpeech}</h5>
         {props.meaning.definitions.map(function(def,index){
             return(
-                <div>
+                <div className="definition-list">
                     <li className="definition"><strong>{def.definition}</strong></li>
                     <em>{def.example}</em>
                     <br></br><br></br>
