@@ -7,7 +7,7 @@ export default function Results(props){
     if(props.data){
     return(
         <div className="results">
-        <h2 className="cap searched-word"><strong>{props.data.word}</strong> - {props.data.phonetic}</h2>
+        <h2 className="cap searched-word text-center"><strong>{props.data.word}</strong> - {props.data.phonetic}</h2>
         <div>{props.data.meanings.map(function(meaning,index){
             return(
                 <div key={index}>
