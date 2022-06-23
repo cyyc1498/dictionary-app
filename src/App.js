@@ -6,7 +6,7 @@ import Dictionary from './dictionary';
 function App() {
   return (
     <div className="App"> 
-    <div className="container">
+    <div className="container-fluid">
       <Dictionary/>
      
       <hr></hr>  
