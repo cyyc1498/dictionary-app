@@ -63,8 +63,9 @@ form {
   color: white;
 }
 
+
 .searched-word {
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   margin-top: 2%;
   font-size: 40px;
 }
@@ -75,7 +76,8 @@ form {
 }
 
 .definition {
-  font-size: 20px;
+  font-size: 17px;
+  font-weight:700;
 }
 
 .definition-list {
@@ -98,3 +100,4 @@ form {
   margin: 10px auto;
   float: right;
 }
+

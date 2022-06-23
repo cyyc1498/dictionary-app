@@ -11,7 +11,7 @@ export default function Meaning(props){
             return(
                 <div>
                     <div className="definition-list row">
-                        <li className="definition"><strong>{def.definition}</strong></li>
+                        <li className="definition">{def.definition}</li>
                         <em>{def.example}</em>
                         <br></br>
                     
