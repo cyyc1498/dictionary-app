@@ -17,9 +17,12 @@ export default function Meaning(props){
                     
                     </div>
                     
+                <div className="row">
                     <Synonym synonyms={def.synonyms}/>
-                    <div><Antonym antonyms={def.antonyms}/></div>
-                    </div>
+                    <Antonym antonyms={def.antonyms}/>
+                </div>
+                <br></br>
+                </div>
 
             )
         })}

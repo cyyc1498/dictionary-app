@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Antonym(props){
     console.log(props.antonyms)
-    if(props.antonyms){
+    if(props.antonyms.length > 0){
         return(
-        <div> Antonyms:
+        <div className="col-6"> <u>Antonyms:</u>
             <ul>
             <div>{props.antonyms.map(function(ant,index){
                 return(

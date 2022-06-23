@@ -1,9 +1,9 @@
-.App{
-font-family: 'Nuosu SIL',
-  serif;
+.App {
+  font-family: 'Nuosu SIL',
+    serif;
 }
 
-.title{
+.title {
   margin-left: 5%;
   margin-bottom: 20px;
   font-size: 75px;
@@ -11,98 +11,90 @@ font-family: 'Nuosu SIL',
   top: 5%;
 }
 
-form{
+form {
   text-align: center;
   position: relative;
   margin-top: 7%;
-  
+
 }
 
-.search-bar, .search-button{
-  border-radius:  20px;
+.search-bar,
+.search-button {
+  border-radius: 20px;
   border: solid thin;
 }
 
-.search-bar{
+.search-bar {
   width: 70%;
   margin-right: 25px;
   height: 40px;
   text-align: center;
 }
 
-.search-button{
+.search-button {
   padding: 6px 12px;
-  
+
 }
 
-.initial-page{
+.initial-page {
   background-color: black;
-  color:white;
+  color: white;
   padding-bottom: 20px;
   position: relative;
-  top:0px;
-  left:0px;
-  width:100%;
+  top: 0px;
+  left: 0px;
+  width: 100%;
 }
 
-.cap{
+.cap {
   text-transform: capitalize;
 }
 
-.part-of-speech, .ant-syn{
+.part-of-speech{
   border-radius: 25px;
   width: fit-content;
-  padding: 7px 20px; 
+  padding: 7px 20px;
   margin-bottom: 30px;
 }
 
-.part-of-speech{
+.part-of-speech {
   border: black solid 2px;
   background-color: black;
-  color:white;
-}
-
-.ant-syn{
-  border: gray solid 2px;
-  background-color: gray;
   color: white;
-  padding: 20px 20px;
 }
 
-
-
-.searched-word{
-  margin-bottom:2%;
+.searched-word {
+  margin-bottom: 2%;
   margin-top: 2%;
   font-size: 40px;
 }
 
-.results{
+.results {
   margin-top: 10%;
-  margin-left: 5%;
+  margin-left: 20px;
 }
 
-.definition{
+.definition {
   font-size: 20px;
 }
 
-.definition-list{
-  margin-right:100px;
+.definition-list {
+  margin-right: 100px;
 }
 
-.github{
+.github {
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
 
-.github:hover{
-  color:dimgray;
+.github:hover {
+  color: dimgray;
   transition: 200ms ease-in-out;
 }
 
 
-.footer{
+.footer {
   margin: 10px auto;
   float: right;
 }

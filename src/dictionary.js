@@ -32,7 +32,7 @@ function handleResponse(response){
 return (
     
     <div>
-          <div className="row">
+          <div className="row width-max">
           <span className='col-md-6'><h1 className='title'>Dictionary</h1></span>
             <span className='col-md-6'>
                 <form onSubmit={handleSubmit}>
