@@ -12,12 +12,12 @@ export default function Meaning(props){
                 <div>
                     <div className="definition-list row">
                         <li className="definition">{def.definition}</li>
-                        <em>{def.example}</em>
+                        <em className="examples">{def.example}</em>
                         <br></br>
                     
                     </div>
                     
-                <div className="row">
+                <div className="row ant-syn">
                     <Synonym synonyms={def.synonyms}/>
                     <Antonym antonyms={def.antonyms}/>
                 </div>

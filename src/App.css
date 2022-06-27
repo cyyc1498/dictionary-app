@@ -72,7 +72,7 @@ form {
 
 .results {
   margin-top: 10%;
-  margin-left: 20px;
+  margin-left: 5%;
 }
 
 .definition {
@@ -95,9 +95,16 @@ form {
   transition: 200ms ease-in-out;
 }
 
+.ant, .syn{
+  margin-left: 5%;
+}
 
 .footer {
   margin: 10px auto;
   float: right;
 }
 
+li, .examples{
+  margin-left: 5%;
+  margin-right: 15%;
+}
