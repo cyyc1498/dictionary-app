@@ -10,7 +10,7 @@ function App() {
       <Dictionary/>
      
       <hr></hr>  
-      <div className='footer'><a href="https://github.com/cyyc1498/dictionary-apps" className="github">Open-source</a> code by Chloe Chan</div>
+      <div className='footer'><a href="https://github.com/cyyc1498/dictionary-app" className="github">Open-source</a> code by Chloe Chan</div>
       </div>
     </div>
   );

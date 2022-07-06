@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Synonym(props){
-    console.log(props.synonyms)
         if(props.synonyms.length > 0){
             return(
         <div className="col-3 syn"><u>Synonyms:</u>

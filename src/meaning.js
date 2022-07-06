@@ -3,7 +3,6 @@ import Synonym from "./synonyms";
 import Antonym from "./antonyms";
 
 export default function Meaning(props){
-    console.log(props.meaning)
     return(
     <div>
         <h5 className="cap part-of-speech">{props.meaning.partOfSpeech}</h5>
